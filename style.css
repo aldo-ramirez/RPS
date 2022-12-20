@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.virtual {
+  grid-column: 1/5;
+  height: 600px;
+
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result {
+  grid-column: 5/9;
+  height: 600px;
+  font-size: 2rem;
+  background-color: rgb(250, 180, 200);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamer {
+  grid-column: 9/13;
+  height: 600px;
+
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+#image-virtual,
+#image-gamer {
+  height: 100px;
+  width: 120px;
+}

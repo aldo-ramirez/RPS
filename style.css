@@ -81,4 +81,10 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
   }
+  #image-virtual,
+  #image-gamer {
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+  }
 }

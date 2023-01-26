@@ -10,6 +10,11 @@ let virtualImage = document.getElementById("image-virtual");
 
 console.log(virtualImage);
 
+/*function onClick() {
+  gamerImage.src = "./images/descarga (1).jfif";
+  virtualImage.src = "./images/descarga (1).jfif";
+}*/
+
 rock.addEventListener("click", () => {
   let gamerChoice = "rock";
   let i = Math.floor(Math.random() * 3);

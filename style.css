@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: indigo;
 }
 
 body {
@@ -11,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(indigo, rgb(3, 255, 125));
 }
 
 .container {
@@ -29,13 +29,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 20%;
+  background-color: rgb(16, 139, 246);
 }
 
 .result {
   grid-column: 5/9;
   height: 600px;
   font-size: 2rem;
-  background-color: rgb(250, 180, 200);
   color: #fff;
   display: flex;
   justify-content: center;
@@ -46,18 +47,21 @@ body {
   grid-column: 9/13;
   height: 600px;
 
-  background-color: black;
+  background-color: rgb(255, 87, 3);
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 20%;
 }
 
 button {
   padding: 10px;
   margin: 10px;
   transition: 0.3s;
+  background-color: blueviolet;
+  color: #fff;
 }
 
 button:hover {
@@ -68,4 +72,5 @@ button:hover {
 #image-gamer {
   height: 100px;
   width: 120px;
+  border-radius: 50%;
 }
